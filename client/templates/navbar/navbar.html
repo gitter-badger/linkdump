@@ -1,0 +1,22 @@
+<template name="navBar">
+	<nav>
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo">LinkDump</a>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-me-and-down">
+				<li><a href="">{{user.name}}</a></li>
+				<li><a class="dropdown-button btn" href="#" data-activates="dropdown1">Collections</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+			<ul class="side-nav" id="mobile-demo">
+				<li><a href="">{{user.name}}</a></li>
+				<li>Collections</li>
+				<li><a href="">some collection</a></li>
+				<li><a href="">About</a></li>
+			</ul>
+			<ul id="dropdown1" class="dropdown-content">
+				<li><a href="#">some collection</a></li>
+			</ul>
+		</div>
+	</nav>	
+</template>
