@@ -1,8 +1,8 @@
 <template name="mainView">
-	<head>
-		<title>linkdump</title>
-	</head>
+	{{ >head}}
 	<body>
-		{{ >navBar}}
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+			{{> navBar}}
+		</div>
 	</body>
 </template>
