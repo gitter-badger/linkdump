@@ -1,5 +1,7 @@
 # Link Dump
 
+[![Join the chat at https://gitter.im/NoahVlncrt/linkdump](https://badges.gitter.im/NoahVlncrt/linkdump.svg)](https://gitter.im/NoahVlncrt/linkdump?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### What is Link Dump
 
 Link Dump is a place where as the name suggests you dump links. It's not built as a social networking service for a reason.
